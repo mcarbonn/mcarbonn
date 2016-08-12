@@ -1,5 +1,59 @@
-.container {
-    background: #F7F7F7;
-    min-height: 1200px;
-    position: relative;
+
+main{
+    padding:25px 10px 10px 25px;
+    font-size: 2em;
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    border-bottom: 30px
 }
+	
+.fancy-container {
+	width: 1000px;
+}
+
+.fancy-text {
+	width: 200px;
+	float: left;
+
+		/* Safari */
+	-webkit-transform: rotate(-45deg);
+
+	/* Firefox */
+	-moz-transform: rotate(-45deg);
+
+	/* IE */
+	-ms-transform: rotate(-45deg);
+
+	/* Opera */
+	-o-transform: rotate(-45deg);
+
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+}
+
+.fancy-text p {
+	padding-top: 150px;
+	font-size: 75px;
+	color:black;
+	font-weight: bold;
+}
+
+.main-background {
+	background-image: url('../img/rosie.jpg');
+	background-position: center center;
+	height: 666px;
+	width: 100%;
+	border: 10px solid red; 
+	float: center;
+}
+
+
+
+
+
+
+
